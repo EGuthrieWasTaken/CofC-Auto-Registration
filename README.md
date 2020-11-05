@@ -22,7 +22,8 @@ pip3 install selenium
 
 2) A recent version of [Google Chrome](https://www.google.com/chrome/). Any version of Chrome for which a ChromeDriver is available should work (see requirement #2), but older issues may have unforeseen problems.
 3) The corresponding version of [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/) to your version of Chrome. You can find your Chrome version by selecting the 3 dots icon on the top right of the browser, and then selecting Help -> About Google Chrome. The full version number is listed there, but you only need the first number (ex: 86.X.X.X). For version 86 of Chrome, you would want version 86 of ChromeDriver, and so on.
-4) It isn't enough to simply download ChromeDriver; you have to place it in your ``PATH``. For Linux and MacOS, this can generally be accomplished by running the following command:
+4) It isn't enough to simply download ChromeDriver; you have to place it in your ``PATH``. For Linux and MacOS, this can generally be accomplished by running the following command:  
+**Important Note**: Make sure the file named ``chromedriver`` is in your current user's ``Downloads`` directory before using either of the below commands. Otherwise the commands will fail.
 
 ```bash
 sudo mv ~/Downloads/chromedriver /usr/local/bin/
