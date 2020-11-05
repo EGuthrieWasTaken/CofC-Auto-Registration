@@ -153,6 +153,8 @@ def main():
 
     # Registering for courses
     print("Registering for courses....")
+    # One final short sleep to ensure the program works.
+    sleep(3)
     if not register(driver, term, course_codes):
         print("Failed to register!")
         return
