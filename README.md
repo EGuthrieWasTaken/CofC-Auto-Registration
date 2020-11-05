@@ -37,7 +37,7 @@ move %HOMEPATH%\Downloads\chromedriver C:\WINDOWS\system32
 At this point, you should be all set to run the script with the following command from the directory of this project:
 
 ```bash
-python3 autoRegister.py [arguments]
+python3 autoRegister.py -e [arguments]
 ```
 
-You can always simply run the above command with ``-h`` as the only argument to disply usage instructions. However, simply running the script without any arguments will cause the program to run in interactive mode, wherein it will prompt you for all necessary information. For those with little knowledge of using tools such as this, this is recommended.
+You can always simply run the above command with ``-h`` as the only argument to disply usage instructions. However, simply running the script without any arguments will cause the program to run in interactive mode, wherein it will prompt you for all necessary information. I also recommend using the ``-e`` option, which causes the program to run headless (i.e. it doesn't open a new window for Chrome), and this usually helps with program stability. For those with little knowledge of using tools such as this, this is recommended.
